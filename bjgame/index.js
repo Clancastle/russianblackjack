@@ -56,9 +56,13 @@ function newCard() {
     }
 }
 
-console.log(randomCard())
+
 
 // set the sum to add in the add card part
 
 // also make it so if i went over, i reset, or cannot get a new card
 // make it so i can just reset the values in the html file by just calling one function.
+
+
+// maybe also create a button that links to a new page, and that page has
+// blackjack you can play versus a dealer

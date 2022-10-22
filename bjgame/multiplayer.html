@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="multiplayer.js"></script>
+        <link rel="stylesheet" href="index.css">
+
+        <title>BlackJack for Russians</title>
+        <!--add an blackjack icon near the title-->
+        <link rel="icon" href="images.png">
+    </head>
+
+    <body>
+    <div class="grid">
+        
+        <div class="player">
+           <div>
+            <h1 class="centerwords" id="blackjack"><a href="index.html">Blackjack</a></h1>
+
+            <h2 class="centerwords" id="message">Press <span class="sty">BLACKJACK</span> to go back</h2>
+            <h2 class="centerwords" id="cards-el">Cards: </h2>
+            <h2 class="centerwords" id="sum-el">Sum: </h2>
+
+            <button onclick="startGame()" id="start">START GAME</button>
+            <button onclick="newCard()">NEW CARD</button>
+
+            <br>
+            
+            <button id="stand" onclick="stand()">STAND</button>
+            <button id="surrender" onclick="quit()">SURRENDER</button>
+            
+            <h2 class="centerwords" id="player"></h2>
+            </div>
+
+        </div>
+        <div class="dealer">
+            <h1 id="dealer">Dealer</h2>
+                <h2 class="centerwords" id="dealersum">Dealer Sum:</h2>
+
+
+
+
+
+        </div>
+    </div>    
+    </body>
+   <!--  <footer>
+        <a href="instagram.com/envi.dev">Insta></a>
+        <a href="tiktok.com/envi.dev">TikTok</a>
+    </footer> -->
+</html>

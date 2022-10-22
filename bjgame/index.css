@@ -23,11 +23,11 @@ button {
     border-radius: 4px;
     color: rgb(0, 0, 0);
     margin-bottom: 6px;
-
-    
 }
+
 #blackjack {
     color:rgb(205, 61, 61)
+    
 }
 button:hover {
     background-color: brown;
@@ -44,4 +44,18 @@ button:hover {
 }
 #start{
     padding: 9px 23.5px;
+}
+#ply {
+    padding: 10px 84px;
+    margin-top: 1.7px;
+}
+a { 
+    text-decoration: none;
+    color:rgb(205, 61, 61)
+
+}
+#dealer {
+    color:rgb(205, 61, 61);
+    text-align: center;
+
 }
